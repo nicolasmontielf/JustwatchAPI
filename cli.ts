@@ -1,4 +1,4 @@
-import { getIdByName, getInfoById } from './src/api.service';
+import { getIdByName, getInfoById } from './src/services/api.service';
 import promptSync from 'prompt-sync';
 
 const prompt = promptSync({ sigint: true });
