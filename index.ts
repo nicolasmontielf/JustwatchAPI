@@ -3,6 +3,7 @@ import promptSync from 'prompt-sync';
 
 const prompt = promptSync({ sigint: true });
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function formatText(name: string, info: any) {
     console.log('------------------------------------')
     if (info.length > 0) {
@@ -31,7 +32,7 @@ async function main(search: string) {
 }
 
 (async () => {
-    console.log("Bienvenido a JustWatch CLI. Para salir, presiona Ctrl+C")
+    console.log("Bienvenido a JustWatch CLI. Para salir, presiona Ctrl+C ");
     while (true) {
         const search: string = prompt('Que pelicula o serie buscas?: ');
         if (search.length === 0) {

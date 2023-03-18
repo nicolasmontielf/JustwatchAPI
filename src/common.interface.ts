@@ -49,9 +49,9 @@ export interface GetTitleOffersResponse {
         node: {
             offerCount: number,
             flatrate: GetTitleOffersFlatrateResponse[],
-            buy: Array<Object>,
-            rent: Array<Object>,
-            free: Array<Object>,
+            buy: Array<unknown>,
+            rent: Array<unknown>,
+            free: Array<unknown>,
             __typename: "Movie"
         }
     }

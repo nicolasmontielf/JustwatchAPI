@@ -1,4 +1,4 @@
-import axios, { Axios } from 'axios'
+import axios from 'axios'
 import type { AxiosResponse } from 'axios'
 import { getIdByNameQuery, getDataByIdQuery } from './queries'
 import { SuggestedTitleResponse, GetTitleOffersResponse, GetTitleOffersFlatrateResponse } from './common.interface'
