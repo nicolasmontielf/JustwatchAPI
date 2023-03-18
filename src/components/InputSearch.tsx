@@ -5,7 +5,7 @@ export function InputSearch() {
                 <input class="input is-medium" type="text" placeholder="Movie title" />
             </p>
             <p class="control">
-                <a class="button is-info">
+                <a class="button is-info is-light is-medium">
                     Search
                 </a>
             </p>

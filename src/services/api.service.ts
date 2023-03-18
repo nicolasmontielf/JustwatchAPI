@@ -1,7 +1,7 @@
 import axios from 'axios'
 import type { AxiosResponse } from 'axios'
 import { getIdByNameQuery, getDataByIdQuery } from './queries'
-import { SuggestedTitleResponse, GetTitleOffersResponse, GetTitleOffersFlatrateResponse } from './common.interface'
+import { SuggestedTitleResponse, GetTitleOffersResponse, GetTitleOffersFlatrateResponse } from '../common.interface'
 
 const URL_API = 'https://apis.justwatch.com/graphql'
 

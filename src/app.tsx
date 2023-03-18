@@ -5,7 +5,8 @@ export function App()  {
     return (
         <section class="hero is-info is-fullheight">
             <div class="bg-mask"></div>
-            <div style="z-index: 2">
+
+            <div class="z-index-2">
                 <div class="hero-head">
                     <Navbar />
                 </div>
