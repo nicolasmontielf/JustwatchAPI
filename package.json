@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "ts-node index.ts",
-        "lint": "eslint --ext .ts ."
+        "lint": "eslint --ext .ts .",
+        "build": "tsc"
     },
     "keywords": [],
     "author": "",
