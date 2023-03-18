@@ -20,10 +20,14 @@ function formatText(name: string, info: any) {
 }
 
 async function main(search: string) {
-    const { id, name } = await getIdByName(search)
-    const info = await getInfoById(id)
+    try {
+        const { id, name } = await getIdByName(search)
+        const info = await getInfoById(id)
 
-    formatText(name, info)
+        formatText(name, info)
+    } catch (error) {
+        console.log("Hubo un error al buscar la pelicula o serie. Intentalo de nuevo.")
+    }
 }
 
 (async () => {
