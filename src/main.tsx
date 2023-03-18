@@ -1,5 +1,5 @@
 import { render } from 'preact'
-import { App } from './app'
+import { App } from './App'
 import "../node_modules/bulma/css/bulma.css";
 import './app.css'
 
