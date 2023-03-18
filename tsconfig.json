@@ -22,6 +22,6 @@
         "jsxImportSource": "preact"
     },
     "include": [
-        "src"
+        "src", "cli.ts"
     ]
 }
